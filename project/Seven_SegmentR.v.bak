@@ -1,0 +1,16 @@
+module Seven_SegmentR(i,d);
+  
+  parameter bit = 4;
+  parameter output_bit = 7;
+  
+  input [bit-1:0]i;
+  output [output_bit-1:0]d;
+  
+  reg [output_bit-1:0]d;
+  
+ 
+  always @(*) begin
+	 if(i == 4'b1111) d<= 7'b000_1000;        //R
+    end
+  endmodule
+

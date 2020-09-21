@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0\folder\simulation\modelsim
+vfolder
+IiD6IIaOUkG;iBD>L=;@6Q0
+VFP<5I3bY0nXg@TcL3TV`Q3
+Z1 dC:\altera\13.0\folder\simulation\modelsim
+w1496423360
+8folder.vo
+Ffolder.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 [Nnm98POVji_cd^jW=jkL3
+!s85 0
+!s108 1496423386.338000
+!s107 folder.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|folder.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vfolder_tb
+!i10b 1
+!s100 8HKP1;0mP`55`k;5W1Sb]1
+Ia0fSP2TI;S7fi63XNmfOb0
+VOWFYkTY3Ng9gKkVhH8c_n1
+R1
+w1496423249
+8C:/altera/13.0/folder/folder_tb.v
+FC:/altera/13.0/folder/folder_tb.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1496423386.463000
+!s107 C:/altera/13.0/folder/folder_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0/folder|C:/altera/13.0/folder/folder_tb.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/altera/13.0/folder -O0

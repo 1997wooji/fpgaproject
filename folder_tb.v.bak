@@ -1,0 +1,31 @@
+`timescale 1ns/1ps
+module folder_tb;
+
+
+reg clk, pushen;
+wire led;
+
+  folder UUT(
+  .clk(clk),
+  .pushen(pushen),
+  .led(led)
+  );
+   
+  
+  initial 
+  begin
+  clk=0;
+  always #30 clk=~clk;
+  end
+  
+  initial 
+  begin
+   pushen=0;
+	#100 pushen=1;
+	#150 pushen=0;
+
+  end
+  
+  
+ 
+endmodule

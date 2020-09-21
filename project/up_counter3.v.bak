@@ -1,0 +1,30 @@
+module up_counter(inter_clk, cnt, clr, c, load);
+
+input cnt, clr, inter_clk;
+input load;
+
+output reg [2:0] c;
+
+always @ (posedge inter_clk)
+begin
+	if(clr == 0)
+	begin
+		c <= 3'b0;
+	end
+	else if (load == 1)
+	begin
+		c <= 3'b0;
+	end
+	else
+	begin
+		if(cnt == 1)
+		begin 
+			c <= c + 1;
+		end
+		else 
+		begin
+			c <= c;  
+		end
+	end
+end
+endmodule

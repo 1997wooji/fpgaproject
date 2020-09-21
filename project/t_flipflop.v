@@ -1,0 +1,20 @@
+
+
+ module t_flipflop(q,t,clk);
+output q;
+input t,clk;
+reg q;
+initial 
+   begin 
+	q=1'b0;
+   end
+ always @ (clk)
+	begin
+		if(clk)
+			 begin
+			   if (t==1'b0) begin q=q; end
+			   else begin q=~q;  end
+			 end
+	 end
+endmodule
+ 
